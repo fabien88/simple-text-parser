@@ -1,5 +1,5 @@
 {
-	"name": "simple-text-parser",
+	"name": "@fabien88/simple-text-parser",
 	"version": "1.0.0",
 	"description": "A dead simple, customizable plain text parser.",
 	"author": "Tyler Johnson <tyler@tylerjohnson.me>",
@@ -12,11 +12,10 @@
 	"scripts": {
 		"lint": "jshint src/ test/",
 		"test": "tape test/*",
-		"build": "make",
-		"prepublish": "npm run lint && npm run build && npm run test"
+		"build": "make"
 	},
 	"dependencies": {
-		"lodash": "~3.10.1"
+		"lodash": "^4.17.15"
 	},
 	"devDependencies": {
 		"babel-preset-es2015-rollup": "~1.0.0",
